@@ -52,3 +52,19 @@ git clone https://huggingface.co/bigscience/bloom-560m
 
 ```
 
+### Modify the train-sft.sh file:
+
+```
+echo 'torchrun --standalone --nproc_per_node=4 train_sft.py \\' > train_sft.sh
+echo '    --pretrain "bloom-560m" \\' >> train_sft.sh
+echo "    --model 'bloom' \\" >> train_sft.sh
+echo '    --strategy colossalai_zero2 \\' >> train_sft.sh
+echo '    --log_interval 10 \\' >> train_sft.sh
+echo '    --save_path  output \\' >> train_sft.sh
+echo '    --dataset InstructionWild/data/instinwild_en.json \\' >> train_sft.sh
+echo '    --batch_size 4 \\' >> train_sft.sh
+echo '    --accumulation_steps 8 \\' >> train_sft.sh
+echo '    --lr 2e-5 \\' >> train_sft.sh
+echo '    --max_datasets_size 512 \\' >> train_sft.sh
+echo '    --max_epochs 1' >> train_sft.sh
+```
