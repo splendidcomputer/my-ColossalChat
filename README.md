@@ -32,3 +32,11 @@ pip install .
 cd ../examples
 pip install -r requirements.txt
 ```
+
+## Download Datasets
+```
+git clone https://github.com/XueFuzhao/InstructionWild.git
+cd data
+wget 'https://drive.google.com/uc?export=download&id=1qOfrl0RIWgH2_b1rYCEVxjHF3u3Dwqay' -O instinwild_en.json
+wget 'https://drive.google.com/uc?export=download&id=1OqfOUWYfrK6riE9erOx-Izp3nItfqz_K' -O instinwild_ch.json
+```
