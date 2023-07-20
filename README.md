@@ -36,6 +36,8 @@ pip install -r requirements.txt
 ```
 git clone https://github.com/XueFuzhao/InstructionWild.git
 cd InstructionWild/data
+sudo apt-get update
+sudo apt-get install curl
 curl -L -o instinwild_en.json 'https://drive.google.com/uc?export=download&id=1qOfrl0RIWgH2_b1rYCEVxjHF3u3Dwqay'
 curl -L -o instinwild_ch.json 'https://drive.google.com/uc?export=download&id=1OqfOUWYfrK6riE9erOx-Izp3nItfqz_K'
 
