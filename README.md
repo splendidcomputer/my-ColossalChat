@@ -24,5 +24,6 @@ pip install .
 ## Install the Transformers
 
 ```
+git clone https://github.com/hpcaitech/transformers
 pip install transformers==4.30.2
 ```
