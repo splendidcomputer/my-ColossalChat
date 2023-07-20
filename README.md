@@ -46,5 +46,9 @@ curl -L -o instinwild_ch.json 'https://drive.google.com/uc?export=download&id=1O
 
 ```
 cd ../..
+scp train_sft.sh train_sft.sh.bak
+sudo apt-get install git-lfs
+git clone https://huggingface.co/bigscience/bloom-560m
+
 ```
 
