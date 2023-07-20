@@ -68,3 +68,8 @@ echo '    --lr 2e-5 \\' >> train_sft.sh
 echo '    --max_datasets_size 512 \\' >> train_sft.sh
 echo '    --max_epochs 1' >> train_sft.sh
 ```
+### Enaable the training
+```
+chmod +x ./train_sft.sh
+./train_sft.sh
+```
