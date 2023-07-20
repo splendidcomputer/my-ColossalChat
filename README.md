@@ -25,7 +25,6 @@ pip install .
 ## Install the Transformers
 
 ```
-rm -r transformers/
 git clone https://github.com/hpcaitech/transformers
 cd transformers/
 pip install .
