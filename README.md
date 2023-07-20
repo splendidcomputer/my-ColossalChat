@@ -55,7 +55,7 @@ git clone https://huggingface.co/bigscience/bloom-560m
 ### Modify the train_sft.sh file:
 
 ```
-echo 'torchrun --standalone --nproc_per_node=4 train_sft.py \\' > train_sft.sh
+echo 'torchrun --standalone --nproc_per_node=1 train_sft.py \\' > train_sft.sh
 echo '    --pretrain "bloom-560m" \\' >> train_sft.sh
 echo "    --model 'bloom' \\" >> train_sft.sh
 echo '    --strategy colossalai_zero2 \\' >> train_sft.sh
