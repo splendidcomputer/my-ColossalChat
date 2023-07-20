@@ -41,3 +41,6 @@ curl -L -o instinwild_en.json 'https://drive.google.com/uc?export=download&id=1q
 curl -L -o instinwild_ch.json 'https://drive.google.com/uc?export=download&id=1OqfOUWYfrK6riE9erOx-Izp3nItfqz_K'
 
 ```
+
+## Stage I: Supervised Learning:
+
