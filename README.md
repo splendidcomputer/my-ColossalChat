@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ## Download Datasets
 ```
 git clone https://github.com/XueFuzhao/InstructionWild.git
-cd data
+cd InstructionWild/data
 curl -L -o instinwild_en.json 'https://drive.google.com/uc?export=download&id=1qOfrl0RIWgH2_b1rYCEVxjHF3u3Dwqay'
 curl -L -o instinwild_ch.json 'https://drive.google.com/uc?export=download&id=1OqfOUWYfrK6riE9erOx-Izp3nItfqz_K'
 
