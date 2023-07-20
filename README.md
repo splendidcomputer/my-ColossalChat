@@ -21,9 +21,14 @@ source venv/bin/activate
 cd applications/Chat
 pip install .
 ```
+
 ## Install the Transformers
 
 ```
+rm -r transformers/
 git clone https://github.com/hpcaitech/transformers
-pip install transformers==4.30.2
+cd transformers/
+pip install .
+cd ../examples
+pip install -r requirements.txt
 ```
