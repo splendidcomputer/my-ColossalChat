@@ -10,6 +10,7 @@ Please, following the forth comming commands in order to setup the ColossalChat 
    
 ## Install
 
+```
 conda create -n coati
 conda activate coati
 conda install cudatoolkit=11.7 -c nvidia
@@ -19,3 +20,4 @@ python3 -m venv venv
 source venv/bin/activate
 cd applications/Chat
 pip install .
+```
