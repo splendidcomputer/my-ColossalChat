@@ -2,7 +2,7 @@
 
 Please, following the forth comming commands in order to setup the ColossalChat project on your Debian-based Machine:
 
-1. First, you need to ensure that you have the `venv` module installed. In Python 3.3 and later, it is included by default. If you need to install it separately, you can do so by running:
+First, you need to ensure that you have the `venv` module installed. In Python 3.3 and later, it is included by default. If you need to install it separately, you can do so by running:
    
    ```
    sudo apt-get install python3-venv
