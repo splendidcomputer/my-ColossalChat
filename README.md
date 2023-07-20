@@ -52,7 +52,7 @@ git clone https://huggingface.co/bigscience/bloom-560m
 
 ```
 
-### Modify the train-sft.sh file:
+### Modify the train_sft.sh file:
 
 ```
 echo 'torchrun --standalone --nproc_per_node=4 train_sft.py \\' > train_sft.sh
