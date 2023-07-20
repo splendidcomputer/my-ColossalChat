@@ -21,3 +21,8 @@ source venv/bin/activate
 cd applications/Chat
 pip install .
 ```
+## Install the Transformers
+
+```
+pip install transformers==4.30.2
+```
